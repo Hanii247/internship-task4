@@ -112,11 +112,11 @@ nav a:hover::after {
     z-index: 1;
 }
 body.light-theme .hero::before {
-    background-image: url('hero-dessert.jpg');
+    background-image: url('hero-dessert.png');
     filter: blur(8px) brightness(0.9);
 }
 body.dark-theme .hero::before {
-    background-image: url('hero-dessert.jpg');
+    background-image: url('hero-dessert.png');
     filter: blur(8px) brightness(0.5);
 }
 .hero::after {
@@ -286,4 +286,5 @@ footer {
         gap: 10px;
     }
 }
+
 
